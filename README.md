@@ -13,7 +13,7 @@ composer require mindtwo/laravel-enumerable
 
 ## How to use?
 
-### Setting up enumrable objects
+### Setting up enumerable objects
 
 This package based on [BenSampo/laravel-enum](https://github.com/BenSampo/laravel-enum). 
 Take a look at its [Documentation](https://sampo.co.uk/blog/using-enums-in-laravel) to set 
