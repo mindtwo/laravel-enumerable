@@ -70,7 +70,7 @@ class exampleModel extends EnumerableModel
 ```
 
 Now you can use Laravel's regular attribute set and fill functions to 
-set the attribute value. If the value is not configured in th given enum object,
+set the attribute value. If the value is not configured in the given enum object,
 an InvalidEnumValueException is thrown. 
 
 
