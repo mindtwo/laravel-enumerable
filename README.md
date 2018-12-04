@@ -1,5 +1,5 @@
 # Laravel Multilingual
-[![Latest Stable Version](https://poser.pugx.org/mindtwo/laravel-enumerable)](https://packagist.org/packages/mindtwo/laravel-enumerable)
+[![Latest Stable Version](https://poser.pugx.org/mindtwo/laravel-enumerable/v/stable)](https://packagist.org/packages/mindtwo/laravel-enumerable)
 [![Total Downloads](https://poser.pugx.org/mindtwo/laravel-enumerable/downloads)](https://packagist.org/packages/mindtwo/laravel-enumerable)
 [![License](https://poser.pugx.org/mindtwo/laravel-enumerable/license)](https://packagist.org/packages/mindtwo/laravel-enumerable)
 
