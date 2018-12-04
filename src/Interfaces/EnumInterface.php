@@ -2,6 +2,9 @@
 
 namespace mindtwo\LaravelEnumerable\Interfaces;
 
+use Illuminate\Support\Collection;
+use mindtwo\LaravelEnumerable\Exceptions\InvalidEnumValueException;
+
 interface EnumInterface
 {
     /**
