@@ -21,7 +21,7 @@
         "mindtwo/laravel-dynamic-model-mutators": "^1.1.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.0"
+        "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "psr-4": {
