@@ -1,4 +1,7 @@
-# Laravel Multilingual
+# Laravel Enumerable Eloquent Models
+[![Build Status](https://travis-ci.org/mindtwo/laravel-enumerable.svg?branch=master)](https://travis-ci.org/mindtwo/laravel-enumerable)
+[![StyleCI](https://styleci.io/repos/160328535/shield)](https://styleci.io/repos/160328535)
+[![Quality Score](https://img.shields.io/scrutinizer/g/mindtwo/laravel-enumerable.svg?style=flat-square)](https://scrutinizer-ci.com/g/mindtwo/laravel-enumerable)
 [![Latest Stable Version](https://poser.pugx.org/mindtwo/laravel-enumerable/v/stable)](https://packagist.org/packages/mindtwo/laravel-enumerable)
 [![Total Downloads](https://poser.pugx.org/mindtwo/laravel-enumerable/downloads)](https://packagist.org/packages/mindtwo/laravel-enumerable)
 [![License](https://poser.pugx.org/mindtwo/laravel-enumerable/license)](https://packagist.org/packages/mindtwo/laravel-enumerable)
