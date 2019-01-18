@@ -20,10 +20,10 @@ class EnumerableModelTest extends TestCase
         return new class() extends EnumerableModel {
             protected $guarded = [];
 
-            protected $enums = [
-                'example_1' => ExampleEnum::class,
-                'example_2' => ExampleEnum::class,
-                'example_3' => 'invalid-class',
+            public $enums = [
+                'example1' => ExampleEnum::class,
+                'example2' => ExampleEnum::class,
+                'example3' => 'invalid-class',
             ];
         };
     }
@@ -37,9 +37,9 @@ class EnumerableModelTest extends TestCase
     {
         $model = $this->mockModel();
 
-        $model->example_1 = 'Example 1';
+        $model->example1 = 'Example 1';
 
-        $this->assertEquals('Example 1', $model->example_1);
+        $this->assertEquals('Example 1', $model->example1);
     }
 
     /**
@@ -52,12 +52,12 @@ class EnumerableModelTest extends TestCase
         $model = $this->mockModel();
 
         $model->fill([
-            'example_1' => 'Example 1',
-            'example_2' => 'Example 2',
+            'example1' => 'Example 1',
+            'example2' => 'Example 2',
         ]);
 
-        $this->assertEquals('Example 1', $model->example_1);
-        $this->assertEquals('Example 2', $model->example_2);
+        $this->assertEquals('Example 1', $model->example1);
+        $this->assertEquals('Example 2', $model->example2);
     }
 
     /**
@@ -71,7 +71,7 @@ class EnumerableModelTest extends TestCase
 
         $this->expectException(InvalidEnumValueException::class);
 
-        $model->example_1 = 'invalid-value';
+        $model->example1 = 'invalid-value';
     }
 
     /**
@@ -85,6 +85,6 @@ class EnumerableModelTest extends TestCase
 
         $this->expectException(EnumException::class);
 
-        $model->example_3 = 'Example';
+        $model->example3 = 'Example';
     }
 }

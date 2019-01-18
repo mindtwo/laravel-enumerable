@@ -66,11 +66,12 @@ use mindtwo\LaravelEnumerable\Models\EnumerableModel
 
 class exampleModel extends EnumerableModel
 {
-    $enums = [
+    public $enums = [
         'examle_attribute' => ExampleEnum::class
     ];
 }
 ```
+> Important: Since package version 1.1.0 the $enums property must be declared as public!
 
 Now you can use Laravel's regular attribute set and fill functions to 
 set the attribute value. If the value is not configured in the given enum object,

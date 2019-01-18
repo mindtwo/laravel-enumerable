@@ -2,6 +2,7 @@
 
 namespace mindtwo\LaravelEnumerable\Models\Traits;
 
+use Mindtwo\DynamicMutators\Facades\Handler;
 use mindtwo\LaravelEnumerable\Exceptions\EnumException;
 use mindtwo\LaravelEnumerable\Exceptions\InvalidEnumValueException;
 
@@ -12,7 +13,10 @@ trait Enumerable
      */
     public static function bootEnumerable()
     {
-        static::registerSetMutator('enums', 'setAttributeEnum');
+        static::registerMutationHandler(Handler::make([
+            'name'        => 'enums',
+            'set_mutator' => ['setAttributeEnum'],
+        ]));
     }
 
     /**

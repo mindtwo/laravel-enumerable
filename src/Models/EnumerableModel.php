@@ -3,11 +3,12 @@
 namespace mindtwo\LaravelEnumerable\Models;
 
 use Illuminate\Database\Eloquent\Model;
+
 use mindtwo\LaravelEnumerable\Models\Traits\Enumerable;
-use mindtwo\LaravelDynamicModelMutators\DynamicModelMutator;
+use Mindtwo\DynamicMutators\Traits\HasDynamicMutators;
 
 class EnumerableModel extends Model
 {
-    use DynamicModelMutator,
+    use HasDynamicMutators,
         Enumerable;
 }
