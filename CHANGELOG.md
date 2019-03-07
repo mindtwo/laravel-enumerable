@@ -2,6 +2,9 @@
 
 All notable changes to `laravel-enumerable` will be documented in this file
 
+## 2.0.1 - 2019-03-07
+- Updated to work with bensampo/laravel-enum > 1.7
+
 ## 2.0.0 - 2019-03-07
 - Updated to work with bensampo/laravel-enum > 1.7
 
