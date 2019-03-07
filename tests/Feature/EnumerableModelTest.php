@@ -72,6 +72,7 @@ class EnumerableModelTest extends TestCase
         $this->expectException(InvalidEnumValueException::class);
 
         $model->example1 = 'invalid-value';
+
     }
 
     /**

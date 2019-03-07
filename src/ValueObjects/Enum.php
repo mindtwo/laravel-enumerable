@@ -51,7 +51,7 @@ abstract class Enum extends BaseEnum implements EnumInterface, LocalizedEnum
      *
      * @return string
      */
-    protected static function getLocalizedDescription($value): ?string
+    public static function getLocalizedDescription($value): ?string
     {
         $localizedStringKeys = [
             static::getLocalizationKey().Str::snake(static::getKey($value)),
@@ -72,7 +72,7 @@ abstract class Enum extends BaseEnum implements EnumInterface, LocalizedEnum
      *
      * @return string
      */
-    public static function getLocalizationKey()
+    public static function getLocalizationKey(): string
     {
         return 'base.';
     }
