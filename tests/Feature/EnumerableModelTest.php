@@ -2,11 +2,11 @@
 
 namespace mindtwo\LaravelEnumerable\Tests\Feature;
 
-use mindtwo\LaravelEnumerable\Tests\TestCase;
-use mindtwo\LaravelEnumerable\Models\EnumerableModel;
-use mindtwo\LaravelEnumerable\Tests\Mocks\ExampleEnum;
 use mindtwo\LaravelEnumerable\Exceptions\EnumException;
 use mindtwo\LaravelEnumerable\Exceptions\InvalidEnumValueException;
+use mindtwo\LaravelEnumerable\Models\EnumerableModel;
+use mindtwo\LaravelEnumerable\Tests\Mocks\ExampleEnum;
+use mindtwo\LaravelEnumerable\Tests\TestCase;
 
 class EnumerableModelTest extends TestCase
 {
