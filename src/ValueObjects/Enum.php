@@ -2,13 +2,13 @@
 
 namespace mindtwo\LaravelEnumerable\ValueObjects;
 
-use Illuminate\Support\Str;
-use Illuminate\Support\Collection;
-use BenSampo\Enum\Enum as BaseEnum;
-use Illuminate\Support\Facades\Lang;
 use BenSampo\Enum\Contracts\LocalizedEnum;
-use mindtwo\LaravelEnumerable\Interfaces\EnumInterface;
+use BenSampo\Enum\Enum as BaseEnum;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Str;
 use mindtwo\LaravelEnumerable\Exceptions\InvalidEnumValueException;
+use mindtwo\LaravelEnumerable\Interfaces\EnumInterface;
 
 abstract class Enum extends BaseEnum implements EnumInterface, LocalizedEnum
 {
