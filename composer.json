@@ -16,7 +16,7 @@
         "php": "^7.2",
         "illuminate/database": "5.6.*|5.7.*|5.8.*|6.*",
         "illuminate/support": "5.6.*|5.7.*|5.8.*|6.*",
-        "mindtwo/laravel-enum": "^2.0",
+        "mindtwo/laravel-enum": "2.*",
         "mindtwo/laravel-dynamic-model-mutators": "3.*"
     },
     "require-dev": {
